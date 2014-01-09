@@ -1,12 +1,10 @@
 # Spree Subscriptions
 
-This Spree extension provides administrators the ability to make items 
-'susbscribable'. Products marked as such will allow shopers to decide to
-create a subscription to automatically have those items re-shipped to
-them at the interval of their chosing.
+A Spree extension that enables subscription services.
 
 ## Features
 
+* Provides administrators the ability to make items subscribable.
 * Option for recurring payments.
 * Set time intervals for shipments.
 * Provides customers the ability to create subscriptions.
