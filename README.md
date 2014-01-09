@@ -31,9 +31,9 @@ rails g spree_subscriptions:install
 Make sure to bundle dependencies and create dummy test app to run against specs.
 
 ```bash
-$ bundle
-$ bundle exec rake test_app
-$ bundle exec rspec spec
+bundle
+bundle exec rake test_app
+bundle exec rspec spec
 ```
 
 Copyright (c) 2013 [Dynamo], released under the New BSD License
