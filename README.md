@@ -1,36 +1,39 @@
-Spree Subscriptions
-==================
+# Spree Subscriptions
 
-This extension allows for administrators to mark certain products as
+This Spree extension provides administrators the ability to make items 
 'susbscribable'. Products marked as such will allow shopers to decide to
 create a subscription to automatically have those items re-shipped to
-them at the interval of their chosing. 
+them at the interval of their chosing.
 
-Features
-=======
+## Features
 
+* Option for recurring payments.
+* Set time intervals for shipments.
+* Provides customers the ability to create subscriptions.
 
-Installation
-========
+## Installation
 
-Add the gem to your Gemfile:
+Add gem to Gemfile:
 
-    gem 'spree_subscriptions', github: 'DynamoMTL/spree_subscriptions.git'
-    bundle install
+```ruby
+gem 'spree_subscriptions', github: 'DynamoMTL/spree_subscriptions.git'
+```
 
-Run the generator and the included migrations:
-    
-    rails g spree_subscriptions:install
+Install with bundle and run the generator.
 
+```bash
+bundle install    
+rails g spree_subscriptions:install
+```
 
+## Testing
 
-Testing
--------
+Make sure to bundle dependencies and create dummy test app to run against specs.
 
-Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
-
-    $ bundle
-    $ bundle exec rake test_app
-    $ bundle exec rspec spec
+```bash
+$ bundle
+$ bundle exec rake test_app
+$ bundle exec rspec spec
+```
 
 Copyright (c) 2013 [Dynamo], released under the New BSD License
